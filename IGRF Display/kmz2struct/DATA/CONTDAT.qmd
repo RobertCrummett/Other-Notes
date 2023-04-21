@@ -1,0 +1,83 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.3-Firenze">
+  <identifier>continent</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>World Continents</title>
+  <abstract>World Continents represents the boundaries for the continents of the world.
+
+World Continents provides a basemap layer of the continents for the world.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>polygon</keyword>
+    <keyword>coastlines</keyword>
+    <keyword>World</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>1996</keyword>
+    <keyword>1998</keyword>
+    <keyword>2000</keyword>
+    <keyword>continents</keyword>
+    <keyword>2007</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>coastlines</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>polygon</keyword>
+    <keyword>continents</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>both</type>
+      <address>380 New York Street</address>
+      <city>Redlands</city>
+      <administrativearea>California</administrativearea>
+      <postalcode>92373-8100</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>ArcGIS Content Team</name>
+    <organization>Esri</organization>
+    <position></position>
+    <voice>909-793-2853</voice>
+    <fax></fax>
+    <email>info@esri.com</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link size="" name="File Geodatabase Feature Class" description="" format="" type="" url="http://www.ArcGIS.com" mimeType=""/>
+    <link size="" name="File Geodatabase Feature Class" description="" format="" type="" url="https://my.esri.com" mimeType=""/>
+  </links>
+  <history>Data source: Attribute and geospatial data</history>
+  <history>Data source: Attribute and geospatial data</history>
+  <history>Data source: Attribute data</history>
+  <fees></fees>
+  <constraints type="Limitations of use">See Resource Constraints > legal constraints.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxz="0" maxy="83.62359999999999616" dimensions="2" minz="0" crs="EPSG:4326" minx="-180" miny="-90" maxx="180"/>
+    <temporal>
+      <period>
+        <start>2018-12-31T08:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
